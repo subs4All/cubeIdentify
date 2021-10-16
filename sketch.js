@@ -33,7 +33,7 @@ function setup() {
          facingMode: {
           exact: "environment"
         }
-     }
+     };
   video = createCapture(options);
   video.size(320, 240);
   video.hide();
