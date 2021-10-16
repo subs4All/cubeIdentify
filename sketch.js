@@ -38,7 +38,7 @@ function setup() {
    };
   // Create the video
   video = createCapture(options);
-  video.size(400, 240);
+  video.size(390, 240);
   video.hide();
 
   flippedVideo = ml5.flipImage(video)
